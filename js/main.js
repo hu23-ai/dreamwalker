@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', function () {
   const consultBtn = document.getElementById('consult-btn');
   if (consultBtn) {
     consultBtn.addEventListener('click', () => {
-      window.location.href = 'chat.html';
+      window.location.href = '/html/chat.html';
     });
   }
 });
