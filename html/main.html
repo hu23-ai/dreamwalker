@@ -1,13 +1,18 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dream Walker</title>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/common.css" />
   <link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
+  <!-- ① 화면 최상단 픽셀 깜빡임 레이어 -->
+  <canvas id="pixel-flicker"></canvas>
+  
   <div class="main-bg">
     <div class="main-centerbox">
       <div class="main-title" style="font-family:'Pacifico',cursive;">
@@ -21,6 +26,8 @@
       <button class="main-btn" id="consult-btn">여행지 상담받기</button>
     </div>
   </div>
+
+  <!-- ② 픽셀 깜빡임 스크립트 -->
   <script src="/js/main.js"></script>
 </body>
 </html>
